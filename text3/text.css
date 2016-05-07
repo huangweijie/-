@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 0;*/
+}
+body {
+  padding: 20px;
+}
+.container {
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+.left {
+  width: 160px;
+  float: left;
+  padding: 20px;
+}
+.left span {
+  position: relative;
+  top: -60px;
+  font-weight: bold;
+  left: 10px;
+}
+.middle {
+  margin-left: 220px;
+  margin-right: 140px;
+  padding: 20px;
+}
+.right {
+  width: 120px;
+  float: right;
+}
+.right img {
+  display: block;
+  margin: 20px;
+  border: 1px solid #999;
+}
+.left,.middle,.right {
+  background-color: #fff;
+  border: 1px solid #999;
+}
